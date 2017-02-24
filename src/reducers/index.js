@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import MangaReducer from './reducer_manga';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  manga: MangaReducer
 });
 
 export default rootReducer;
